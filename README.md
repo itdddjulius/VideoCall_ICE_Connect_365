@@ -2,7 +2,7 @@
 ICE Connect 365 App will generate Conference ID's for each NON ON-Premis meeting request.
 <p>
 <span>
-//'=== J.O. 11-MAY-2017 ==================================================================================================
+//'=== J.O. 11-MAY-2017 =====================================================================
 </span>
 <span>
 //'=== MODULE - ICE_Connect_365_App.exe - (ICE Connect 365 App -  v1.0)
