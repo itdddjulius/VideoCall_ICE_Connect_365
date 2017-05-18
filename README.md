@@ -1,13 +1,24 @@
 # VideoCall_ICE_Connect_365
 ICE Connect 365 App will generate Conference ID's for each NON ON-Premis meeting request.
+<p>
+<span>
 //'=== J.O. 11-MAY-2017 ====================================================================================================================
+</span>
+<span>
 //'=== MODULE - ICE_Connect_365_App.exe - (ICE Connect 365 App -  v1.0)
+<span>
 //'===
+<span>
 //'=== AUTHOR - Julius Olatokunbo
+<span>
 //'===
+<span>
 //'=== REASON - Task:
+<span>
 //The Outlook 365 allows for the creation of Skype for Business Meeting Requests to be generated, however
+<span>
 //'without an E5 authentication license there is no Conference ID: displayed.
+<span>
 //'ICE Connect 365 App will generate Conference ID's for each NON ON-Premis meeting request.
 //'The New Dashboard Features
 //'I've updated the dashboard to include a much more neat and professional layout, as shown below.The dashboard will display your contacts photograph,
