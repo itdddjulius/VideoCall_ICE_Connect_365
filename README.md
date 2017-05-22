@@ -1,50 +1,25 @@
-# VideoCall_ICE_Connect_365
-ICE Connect 365 App will generate Conference ID's for each NON ON-Premis meeting request.
-<span>
+# ICE-Connect-365
+The ICE Connect 365 App is a synchronous communication listener.  Installed on cloud servers, ICE Connect 365 App listens for MS Office 365 meeting requests and generates Dynamic Conference ID’s for each meeting request identified. 
+N.B. ICE Connect 365 App generates Dynamic Conference ID’s as distinct from Static Conference ID’s. (Static Conference ID’s present known security risks for clients as the access path through client firewalls or DMZ is compromised by the fact that the same Meeting ID {static}, is used for any meeting). Dynamic Conference ID’s are more secure as the conference ID changes, given a random number generation.
+
+
+2.1	 Architecture and Design
+The ICE Connect 365 App is written in java, this enables cross-platform architecture and design, simplistic tried and tested functionality. (The added bonus is ease of technical support as the java programming language is extremely well known in the development community)
+
+
+2.2	 ICE Connect 365 App Design Interface
+The model below provides an overview of how the ICE Connect 365 App is designed to interface with other business objects in order to facilitate execution. 
+There are detailed descriptions of the operations provided by each business object, represented in the diagram below, as a reference.
+
+<img src="http://wwwraiiarnet16net.000webhostapp.com/assets/ICE_365_Assets/ICE%20Connect%20365%20App%20Interface.png" />
+
+Figure 1. ICE Connect 365 App design interface
 //'=== J.O. 11-MAY-2017 ====================================================================================================================
 //'=== MODULE - ICE_Connect_365_App.exe - (ICE Connect 365 App -  v1.0)
 //'===
 //'=== AUTHOR - Julius Olatokunbo
 //'===
 //'=== REASON - Task:
-//The Outlook 365 allows for the creation of Skype for Business Meeting Requests to be generated, however
-//'without an E5 authentication license there is no Conference ID: displayed.
-//'ICE Connect 365 App will generate Conference ID's for each NON ON-Premis meeting request.
-//'The New Dashboard Features
-//'I've updated the dashboard to include a much more neat and professional layout, as shown below.The dashboard will display your contacts photograph,
-//'status Or availability, And their full name. It will also display a link to start an Instant Message with each contact.
-//'In the interest of privacy, I've hidden some surnames and photographs from the screenshots below.
-//'New Features
-//'    Ability to turn on/off logging details
-//'    Ability to turn on/off the status Or availability legends (useful to save space on larger dashboards)
-//'    Options to exclude off-line contacts (Not much point seeing them normally since you can't interact with them)
-//'    Options to sort your contacts in the dashboard.
-//'
-//'You may be asking, 'Why do we need to sort contacts? Can't Skype do that?' Well, yes and no.Lync or Skype for Business can of course sort your contacts,
-//'however the Skype Web SDK returns contacts And presence status asynchronously. This means that it returns contacts As they respond With their status, which
-//'isn't necessarily in any particular order.The benefit is that the dashboard builds quickly, the downside is that contacts are rarely in order.
-//'Technology Required
-//'To use this presence dashboard, all you need Is the SDK's prerequisites installed on your Lync or Skype for Business servers, a web server to host the
-//'application, And of course your Lync Or Skype for Business account details.
-//'I've used the web framework bootstrap, in order to provide a clean and responsive layout, as well as jQuery, to simplify my JavaScript.
-//'This project assumes you have an understanding Of JavaScript And jQuery. If Not, the internet Is full Of great tutorials, Or check out Puralsight.
-//'This project doesn't require any server side components, apart from a Lync 2013 or Skype for Business environment that supports the UCWA framework.
-//'If don't already have UCWA installed on your environment, pop over here to learn how to install it.
-//'Important Prerequisites
-//'The Skype Web SDK requires that the UCWA framework Is installed And enabled On your Front-End, Edge And Director servers. Click here To view instructions
-//'For how To install UCWA. The Skype Web SDK simply won't function without these steps.
-//'The Code
-//'The application performs a few basic steps, which are outlined below.
-//'
-//'    Initialize the SDK
-//'    Authenticate with user credentials
-//'    Get the user's list of contacts
-//'    Subscribe to presence changes for each contact
-//'    Logout
-//'    Miscellaneous Functions
-//'The full code Of For this application Is listed below.
-//'The first Step Is To actually initialize the SDK. This requires the inclusion Of the actual SDK In your HTML file, And this Is made very easy As Microsoft
-//'conveniently provide this On their CDN.
 //'//=== HISTORY-===========================================================================================================================
 //'//=== J.O. 27-APR-2017 - v1.0 - Initial flash param loading to establish communication with server, trace output to console
 //'//=== J.O. 28-APR-2017 - v1.0 - Alert panel, Logo And Alert Button modification with all text accessed from Locale file
