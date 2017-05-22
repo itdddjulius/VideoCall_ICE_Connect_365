@@ -32,4 +32,4 @@ Figure 1. ICE Connect 365 App design interface
 //'=== J.O. 11-MAY-2017 =
 //'=== J.O. 11-MAY-2017 =
 </span>
-<center><img src="https://github.com/itdddjulius/VideoCall_ICE_Connect_365.git/ICE_Connect_365_Giant_Logo.png" /></center>
+<center><img src="http://wwwraiiarnet16net.000webhostapp.com/assets/ICE_365_Assets/ICE_Connect_365_Giant_Logo.png" /></center>
