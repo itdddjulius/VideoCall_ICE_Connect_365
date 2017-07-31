@@ -11,7 +11,7 @@ The ICE Connect 365 App is written in java, this enables cross-platform architec
 The model below provides an overview of how the ICE Connect 365 App is designed to interface with other business objects in order to facilitate execution. 
 There are detailed descriptions of the operations provided by each business object, represented in the diagram below, as a reference.
 
-<img src="http://wwwraiiarnet16net.000webhostapp.com/assets/ICE_365_Assets/ICE%20Connect%20365%20App%20Interface.png" />
+<img src="http://wwwraiiarnet16net.000webhostapp.com/assets/ICE_365_Assets/ICE_CONNECT_365_LISTENER.jpg" />
 
 Figure 1. ICE Connect 365 App design interface
 //'=== MODULE - ICE_Connect_365_App.exe - (ICE Connect 365 App -  v1.0)
